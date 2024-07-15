@@ -11,11 +11,20 @@ https://www.nvidia.com/download/index.aspx
 
 - 기존 Nvidia Driver와 충돌을 막기위해 Nouveau 비활성화
 ```
-$ sudo apt update && sudo apt upgrade
-$ vi /etc/modprobe.d/blacklist-nouveau.conf
- --> i 키 
- --> blacklist nouveau options nouveau modeset=0 입력
- --> :wq!
+$ sudo apt-get update
+$ sudo apt-get remove nvidia* && sudo apt autoremove 
+$ sudo apt-get install dkms build-essential linux-headers-generic
+$ sudo gedit /etc/modprobe.d/blacklist.conf
+```
+```
+blacklist nouveau
+blacklist lbm-nouveau
+options nouveau modeset=0
+alias nouveau off
+alias lbm-nouveau off
+```
+- nvidia driver install
+```
 $ sudo update-initramfs -u
 $ sudo apt install nvidia-driver-550
 $ sudo reboot
