@@ -23,7 +23,6 @@ options nouveau modeset=0
 alias nouveau off
 alias lbm-nouveau off
 ```
-- nvidia driver install
 ```
 $ sudo update-initramfs -u
 $ sudo apt install nvidia-driver-550
@@ -36,6 +35,13 @@ $ nvidia-smi
 ```
 $ wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run
 $ sudo sh cuda_11.8.0_520.61.05_linux.run
+ -> Continue
+ -> [ ] Driver
+$ gedit ~/.bashrc
+ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+ export PATH=/usr/local/cuda/bin:$PATH
+$ source ~/.bashrc
+$ nvcc --version
 ```
 
 ### Install Python
