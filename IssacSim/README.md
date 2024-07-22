@@ -46,13 +46,36 @@ $ nvcc --version
 
 ### Install Python
 - IssacSim required Python3.10
+- Using Anaconda
 ```install python3.10
-$ cd Downloads/Python-3.10.14/
-$ ./configure --enable-optimizations
-$ sudo make -j4 && sudo make altinstall
-$ python3.11 --version
-$ python3.11 -m pip --version
+$ wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+$ bash Anaconda3-2022.10-Linux-x86_64.sh
+ --> yes
+ --> yes
+$ source ~/.bashrc
+$ conda create -n isaac-sim python=3.10
+
+# activate virtual environment
+$ conda activate isaac-sim 
+
+# deactivate virtual environment
+$ conda deactivate
 ```
+
+- python package manage
+```
+# install python package
+$ pip install {package_name}
+
+# remove python package
+$ pip uninstall {package_name}
+```
+
+### Test example code with VS Code
+- install python & python extension pack
+- `Ctrl`+`Shift`+`P`를 눌러 `Python: Select Interpreter` 선택
+- Anaconda에 있는 python3.10 선택
+- isaac-sim-2023.1.1/standalone_examples/api/omni.isaac.franka/pick_place.py 파일을 열고 `F5`로 실행
 
 ### Install ROS
 
