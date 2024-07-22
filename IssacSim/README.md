@@ -72,13 +72,11 @@ $ pip install {package_name}
 # remove python package
 $ pip uninstall {package_name}
 ```
+### Install ROS
 
-### Test example code with VS Code
+## 2. Install Issacsim  
+## 3. Test Example Code
 - install python & python extension pack
 - `Ctrl`+`Shift`+`P`를 눌러 `Python: Select Interpreter` 선택
 - Anaconda에 있는 python3.10 선택
 - isaac-sim-2023.1.1/standalone_examples/api/omni.isaac.franka/pick_place.py 파일을 열고 `F5`로 실행
-
-### Install ROS
-
-## 2. Install Issacsim  
