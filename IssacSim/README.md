@@ -1,9 +1,11 @@
 # Environment Setup
-## 0. Hardware Specification
+## 0. Performance Environment
  - Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
  - NVIDIA GeForce RTX 2080 Ti
  - RAM 32GB
  - SSD 500GB
+
+ - Ubuntu 22.04
 
 ## 1. Setting on Ubuntu
 ### Install Nvidia Driver
