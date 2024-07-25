@@ -3,7 +3,7 @@
  - Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz
  - NVIDIA GeForce RTX 2080 Ti
  - RAM 32GB
- - SSD 500GB
+ - SSD 512GB
 
  - Ubuntu 22.04
 
