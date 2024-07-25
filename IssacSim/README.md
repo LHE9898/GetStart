@@ -101,3 +101,6 @@ $ ./omniverse~~~
 - `Ctrl`+`Shift`+`P`를 눌러 `Python: Select Interpreter` 선택
 - Anaconda에 있는 python3.10 선택
 - isaac-sim-2023.1.1/standalone_examples/api/omni.isaac.franka/pick_place.py 파일을 열고 `F5`로 실행
+
+## REFERENCES
+[https://github.com/gist-ailab/AILAB-summer-school]
