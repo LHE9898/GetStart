@@ -81,9 +81,20 @@ $ pip uninstall {package_name}
 [https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html]
 
 ## 2. Install Issacsim  
+[https://www.nvidia.com/en-us/omniverse/download/]
+
 ![image](https://github.com/user-attachments/assets/04de2514-a3d0-4e5d-8a93-6f5e5d5eed0e)
 
+![image](https://github.com/user-attachments/assets/d1c44564-2c9c-44a5-878b-78622d521b63)
 
+```
+$ sudo chmod +x omniver~~~~
+$ ./omniverse~~~
+```
+
+- EXCHANGE -> OMNIVERSE CACHE download
+- EXCHANGE -> ISAAC SIM download
+- NUCLEUS -> create local necleus service 
 
 ## 3. Test Example Code
 - install python & python extension pack
