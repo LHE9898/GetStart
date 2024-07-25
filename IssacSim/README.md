@@ -81,6 +81,10 @@ $ pip uninstall {package_name}
 [https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html]
 
 ## 2. Install Issacsim  
+![image](https://github.com/user-attachments/assets/04de2514-a3d0-4e5d-8a93-6f5e5d5eed0e)
+
+
+
 ## 3. Test Example Code
 - install python & python extension pack
 - `Ctrl`+`Shift`+`P`를 눌러 `Python: Select Interpreter` 선택
