@@ -72,7 +72,13 @@ $ pip install {package_name}
 # remove python package
 $ pip uninstall {package_name}
 ```
+
+### Install VSCode
+`$ sudo apt install ./{vscode/deb/file/name}`
+
 ### Install ROS
+- see the ROS2 Humble install guide
+[https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html]
 
 ## 2. Install Issacsim  
 ## 3. Test Example Code
