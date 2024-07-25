@@ -88,6 +88,8 @@ $ pip uninstall {package_name}
 ![image](https://github.com/user-attachments/assets/d1c44564-2c9c-44a5-878b-78622d521b63)
 
 ```
+$ sudo add-apt-repository universe
+$ sudo apt install libfuse2
 $ sudo chmod +x omniver~~~~
 $ ./omniverse~~~
 ```
